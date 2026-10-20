@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Proyectos, visitas y eventos de las Chicas de Eléctrica de la Escuela Técnica N.º 29."
+    />
+    <title>Chicas de Eléctrica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@1,6..72,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+
+  <body>
+    <header class="encabezado">
+      <a class="marca" href="#inicio">
+        <img src="img/chicaslogo.jpeg" alt="" />
+        <span>
+          <strong>Chicas de Eléctrica</strong>
+          <small>Escuela Técnica N.º 29</small>
+        </span>
+      </a>
+
+      <nav class="navegacion" id="navegacion" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#visitas">Visitas</a>
+        <a href="#eventos">Eventos</a>
+      </nav>
+
+      <div class="acciones">
+        <button class="boton-modo" id="boton-modo" type="button">Modo oscuro</button>
+        <button
+          class="boton-menu"
+          id="boton-menu"
+          type="button"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-texto">
+          <p class="etiqueta">Escuela Técnica N.º 29 · Boedo</p>
+          <h1>Chicas de <em>Eléctrica.</em></h1>
+          <p class="bajada">
+            Bienvenido/a a nuestra página. Acá compartimos los proyectos, visitas y eventos de las
+            alumnas de la especialidad de Electricidad.
+          </p>
+          <div class="hero-botones">
+            <a class="boton principal" href="#proyectos">Ver nuestros proyectos →</a>
+            <a
+              class="enlace-texto"
+              href="https://www.instagram.com/chicas.de.electrica29"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Seguinos en Instagram
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-imagen">
+          <img src="img/refacción.jpg" alt="Proyecto de las Chicas de Eléctrica" />
+          <div class="nota-hero">
+            <span>Aprender haciendo</span>
+            <strong>Electricidad, innovación y trabajo en equipo.</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="seccion" id="proyectos">
+        <div class="titulo-seccion">
+          <div>
+            <p class="etiqueta">Lo que hacemos</p>
+            <h2>Proyectos</h2>
+          </div>
+          <p>
+            Conocé algunos de los proyectos desarrollados por las alumnas de la especialidad de
+            Electricidad, enfocados en la innovación, la eficiencia energética y la mejora de los
+            espacios escolares.
+          </p>
+        </div>
+
+        <div class="grilla-proyectos">
+          <article class="tarjeta destacada">
+            <a
+              class="imagen-enlace"
+              href="https://www.instagram.com/reel/DIjc_M1A4WX/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="img/refacción.jpg" alt="Colocación de circuitos eléctricos" />
+              <span>Ver en Instagram →</span>
+            </a>
+            <div class="contenido-tarjeta">
+              <span class="categoria">Instalaciones</span>
+              <h3>Colocación de circuitos eléctricos</h3>
+              <p>
+                Colocamos circuitos terminales IUG, TUG y TUE para el nuevo salón de computación.
+                Trabajamos en la instalación y organización necesaria para que el espacio pueda
+                utilizarse de manera segura y eficiente.
+              </p>
+            </div>
+          </article>
+
+          <article class="tarjeta">
+            <div class="imagenes-dobles">
+              <img src="img/sabadoenlatec1.jpeg" alt="Presentación del proyecto" />
+              <img src="img/sabadoenlatec2.jpeg" alt="Presentación a la comunidad" />
+            </div>
+            <div class="contenido-tarjeta">
+              <span class="categoria">Comunidad</span>
+              <h3>Presentación del proyecto</h3>
+              <p>
+                Presentamos nuestro proyecto a la comunidad educativa y a los vecinos del barrio de
+                Boedo. Compartimos nuestro trabajo, explicamos nuestras ideas y mostramos lo
+                aprendido.
+              </p>
+            </div>
+          </article>
+
+          <article class="tarjeta">
+            <div class="imagenes-dobles">
+              <a
+                class="imagen-enlace"
+                href="https://www.instagram.com/p/DLoHs3aAz3Z/?hl=es"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="img/sensores.jpeg" alt="Sensores de movimiento" />
+                <span>Ver instalación →</span>
+              </a>
+              <img src="img/graficosen.jpeg" alt="Primeros resultados del proyecto" />
+            </div>
+            <div class="contenido-tarjeta">
+              <span class="categoria">Eficiencia energética</span>
+              <h3>Colocación de sensores de movimiento</h3>
+              <p>
+                Instalamos sensores en los baños de la Escuela Técnica N.º 29 y analizamos los
+                primeros resultados del proyecto.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="seccion seccion-borde" id="visitas">
+        <div class="titulo-seccion">
+          <div>
+            <p class="etiqueta">Más allá del aula</p>
+            <h2>Visitas</h2>
+          </div>
+          <p>
+            Las visitas técnicas nos permiten acercarnos al mundo profesional, conocer procesos
+            productivos y relacionar lo aprendido en la escuela con situaciones reales.
+          </p>
+        </div>
+
+        <div class="introduccion">
+          <span class="categoria">Visita técnica</span>
+          <h3>Visita a Trefilcom</h3>
+          <p>
+            Realizamos una visita a la fábrica Trefilcom, donde pudimos conocer más de cerca los
+            métodos de fabricación y comercialización. Fue una experiencia que nos permitió
+            relacionar lo aprendido en la escuela con el trabajo que se realiza en una empresa.
+          </p>
+        </div>
+
+        <div class="galeria galeria-visita">
+          <img src="img/trefi1.jpeg" alt="Visita a Trefilcom 1" loading="lazy" />
+          <img src="img/trefi2.jpeg" alt="Visita a Trefilcom 2" loading="lazy" />
+          <img src="img/trefi3.jpeg" alt="Visita a Trefilcom 3" loading="lazy" />
+          <img src="img/trefi4.jpeg" alt="Visita a Trefilcom 4" loading="lazy" />
+        </div>
+
+        <div class="subtitulo">
+          <p class="etiqueta">Reconocimientos</p>
+          <h3>Entrega de regalos por parte de Trefi</h3>
+          <p>
+            Algunas integrantes de nuestro grupo recibieron regalos por responder correctamente una
+            serie de preguntas.
+          </p>
+        </div>
+
+        <div class="grilla-regalos">
+          <article><img src="img/regalo1.jpeg" alt="Primera ganadora" /><h4>Primera ganadora</h4></article>
+          <article><img src="img/regalo2.jpeg" alt="Segunda ganadora" /><h4>Segunda ganadora</h4></article>
+          <article><img src="img/regalo3.jpeg" alt="Tercera ganadora" /><h4>Tercera ganadora</h4></article>
+          <article><img src="img/regalo4.jpeg" alt="Cuarta ganadora" /><h4>Cuarta ganadora</h4></article>
+          <article><img src="img/regalo5.jpeg" alt="Quinta ganadora" /><h4>Quinta ganadora</h4></article>
+          <article><img src="img/regalo6.jpeg" alt="Sexta ganadora" /><h4>Sexta ganadora</h4></article>
+          <article><img src="img/regalo7.jpeg" alt="Séptima ganadora" /><h4>Séptima ganadora</h4></article>
+        </div>
+      </section>
+
+      <section class="seccion" id="eventos">
+        <div class="titulo-seccion">
+          <div>
+            <p class="etiqueta">Compartir y aprender</p>
+            <h2>Eventos</h2>
+          </div>
+          <p>
+            Participamos en diversos eventos y desafíos donde demostramos nuestros conocimientos,
+            compartimos experiencias y representamos a nuestra escuela técnica.
+          </p>
+        </div>
+
+        <div class="subtitulo sin-margen">
+          <span class="categoria">Desafío Eléctrico 2025</span>
+          <h3>Conocé a los equipos participantes</h3>
+          <p>
+            Presioná una imagen para ver la presentación de cada equipo en Instagram.
+          </p>
+        </div>
+
+        <div class="grilla-equipos">
+          <a class="imagen-enlace" href="https://www.instagram.com/reel/DP7RK6XgL9n/" target="_blank" rel="noreferrer">
+            <img src="img/equiporojo.jpg" alt="Equipo rojo" />
+            <span>Equipo rojo →</span>
+          </a>
+          <a class="imagen-enlace" href="https://www.instagram.com/reel/DP7SdFMAAlM/" target="_blank" rel="noreferrer">
+            <img src="img/equipoazul.jpg" alt="Equipo azul" />
+            <span>Equipo azul →</span>
+          </a>
+          <a class="imagen-enlace" href="https://www.instagram.com/reel/DP7Sps1gHeg/" target="_blank" rel="noreferrer">
+            <img src="img/equipoverde.jpg" alt="Equipo verde" />
+            <span>Equipo verde →</span>
+          </a>
+        </div>
+
+        <div class="evento-destacado">
+          <div>
+            <span class="categoria">ExpoTécnica 2026</span>
+            <h3>Demostración del proyecto</h3>
+            <p>
+              Demostración del proyecto Desafío Eléctrico 2026, realizada durante la edición de
+              ExpoTécnica 2026 en el Golden Center.
+            </p>
+          </div>
+          <div class="imagenes-evento">
+            <img src="img/desafioe261.jpeg" alt="Demostración del Desafío Eléctrico 2026" />
+            <img src="img/desafioe262.jpeg" alt="Segunda imagen de la demostración" />
+          </div>
+        </div>
+      </section>
+
+      <section class="llamada">
+        <p class="etiqueta">Seguinos de cerca</p>
+        <h2>Conocé nuestros próximos proyectos.</h2>
+        <a
+          class="boton claro"
+          href="https://www.instagram.com/chicas.de.electrica29"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Ir a Instagram →
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <a class="marca" href="#inicio">
+        <img src="img/chicaslogo.jpeg" alt="" />
+        <span>
+          <strong>Chicas de Eléctrica</strong>
+          <small>Aprender, crear y compartir</small>
+        </span>
+      </a>
+      <p>Escuela Técnica N.º 29 · Boedo, Buenos Aires</p>
+      <a href="#inicio">Volver arriba</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
